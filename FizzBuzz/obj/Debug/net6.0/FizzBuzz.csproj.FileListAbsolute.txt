@@ -13,3 +13,6 @@ C:\Users\andrz\Source\Repos\Testy do pracy\FizzBuzz\FizzBuzz\obj\Debug\net6.0\Fi
 C:\Users\andrz\Source\Repos\Testy do pracy\FizzBuzz\FizzBuzz\obj\Debug\net6.0\ref\FizzBuzz.dll
 C:\Users\andrz\Source\Repos\Testy do pracy\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.pdb
 C:\Users\andrz\Source\Repos\Testy do pracy\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.genruntimeconfig.cache
+C:\Users\andrz\Source\Repos\Testy do pracy\FizzBuzz\FizzBuzz\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\andrz\Source\Repos\Testy do pracy\FizzBuzz\FizzBuzz\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\andrz\Source\Repos\Testy do pracy\FizzBuzz\FizzBuzz\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
