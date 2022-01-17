@@ -14,7 +14,7 @@ namespace Unittest
             List<int> listTestNumbers = new List<int>() { 2, 3, 4, 5, 9, 15,90 };
             
             Assert.Collection(listTestNumbers,
-                item => Assert.NotEqual("Fizz", object1.FizzBuzzNumbers(item)),
+                item => Assert.Equal("Fizz", object1.FizzBuzzNumbers(item)),
                 item => Assert.Equal("Fizz", object1.FizzBuzzNumbers(item)),
                 item => Assert.Equal("4", object1.FizzBuzzNumbers(item)),
                 item => Assert.Equal("Buzz", object1.FizzBuzzNumbers(item)),
