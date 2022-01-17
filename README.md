@@ -5,7 +5,7 @@
  * and for the multiples of five print "Buzz". 
  * For numbers which are multiples of both three and five print "FizzBuzz".*/
  
- github action run CI for running 'unit tests'
+ github action run CI for running `unit tests`
  instead use command dotnet test
  
  Author:Andrzej Iwaniuk
