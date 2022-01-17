@@ -3,29 +3,21 @@
  * and for the multiples of five print "Buzz". 
  * For numbers which are multiples of both three and five print "FizzBuzz".*/
 
-void FizzBuzzNumbers()
+String FizzBuzzNumbers(int number)
 {
-    int number = 1;
-    while (number <= 100)
-    {
-        if (number % 3 == 0 && number % 5 == 0)
-        {
-            Console.WriteLine(" FizzBuzz");
-        }
-        else if (number % 3 == 0)
-        {
-            Console.WriteLine(" Fizz");
-        }
-        else if (number % 5 == 0)
-        {
-            Console.WriteLine(" Buzz");
-        }
-        else
-        {
-            Console.WriteLine(number);
-        }
-        number++;
-    }
+
+    if (number % 15 == 0)
+        return "FizzBuzz";
+    else if (number % 3 == 0)
+        return "Fizz";
+    else if (number % 5 == 0)
+        return "Buzz";
+    else
+        return Convert.ToString(number);
 }
 
-FizzBuzzNumbers();
+for(int number = 1; number <= 100; number++)
+{
+    Console.WriteLine(FizzBuzzNumbers(number));
+}
+
